@@ -6,7 +6,7 @@ terraform {
       version = "~> 5.49.0"
     }
   }
-  backend "s3" {
+ # backend "s3" {
     bucket         = "dev-ritej-tf-bucket"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
